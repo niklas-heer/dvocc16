@@ -1,4 +1,4 @@
-DevOps Camp Compact 2016
+[DevOps Camp Compact 2016](http://www.devops-camp.de/)
 ========================
 
 # Session Caddy

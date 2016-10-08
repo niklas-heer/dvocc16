@@ -7,29 +7,29 @@ nheer.io {
     minify
     header / Cache-Control "max-age=2592000"
 
-    # rewrite index.html index.md
+    rewrite index.html index.md
 
-     git git@github.com:niklas-heer/dvocc16.git {
+    git git@github.com:niklas-heer/dvocc16.git {
         hook /webhook super-secret-key
-        # path ../
-        # then /usr/local/bin/hugo --theme=nh --destination=/var/www/blog_nheer_io/public
+        path ../
+        then /usr/local/bin/hugo --theme=nh --destination=/var/www/blog_nheer_io/public
     }
 
-    # markdown / {
-    #     ext .md
-    #     template assets/hack.html
-    # }
+    markdown / {
+        ext .md
+        template assets/hack.html
+    }
 
-    # basicauth / user dvocc16
+    basicauth / user dvocc16
 
-    # filemanager / {
-    #     show           /var/www/test
-    #     allow_commands false
-    #     user:
-    #     allow_commands true
-    #     allow_command  rm
-    #     allow_command  cp
-    #     allow_command  mv
-    #     allow          dotfiles
-    # }
+    filemanager / {
+        show           /var/www/test
+        allow_commands false
+        user:
+        allow_commands true
+        allow_command  rm
+        allow_command  cp
+        allow_command  mv
+        allow          dotfiles
+    }
 }
