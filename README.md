@@ -11,7 +11,7 @@ This repo contains the session notes for the session "Caddy" at the [#dvocc16](h
 - Let's Encrypt: https://letsencrypt.org/
 - Caddy Docs: https://caddyserver.com/docs
 - Caddy Build service: https://caddyserver.com/download
-- Caddy Download Script: https://getcaddy.com/ (`curl https://getcaddy.com | bash`)
+- Caddy Download Script: https://getcaddy.com/ (`curl https://getcaddy.com | bash -s git`)
 - Complete Install Script: https://github.com/sayem314/Caddy-Web-Server-Installer (`wget https://git.io/vra5C -O - -o /dev/null|bash`)
 - Caddy & QUIC: https://github.com/mholt/caddy/wiki/QUIC
 - Caddy Syntax Support for Sublimetext: https://github.com/caddyserver/sublimetext

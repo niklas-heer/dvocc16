@@ -7,6 +7,8 @@ nheer.io {
     minify
     header / Cache-Control "max-age=2592000"
 
+    # rewrite index.html index.md
+
      git git@github.com:niklas-heer/dvocc16.git {
         hook /webhook super-secret-key
         # path ../
